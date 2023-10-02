@@ -31,12 +31,12 @@ export default function Navbar() {
           </form>
         </div>
         <div className="account self-center">
-          <button onClick={openModal} className="flex">
-            <h1>
+          <button onClick={openModal} className="flex ">
+            <h1 className=" md:text-xs lg:text-base">
               Create account.
               <span className="text-blue">It's free!</span>
             </h1>
-            <AiFillCaretDown className="m-1" />
+            <AiFillCaretDown className="m-1 " />
           </button>
 
           <div className="Modal-navbar">

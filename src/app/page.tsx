@@ -11,11 +11,11 @@ export default function Home() {
 
   return (
     <>
-      <div className={`${screenSize ? "block" : "hidden"} sticky top-0 border-b`}>
+      <div className={`${screenSize ? "block h-12" : "hidden"} sticky top-0 bg-white border-b`}>
         <Navbar />
       </div>
       <Heropage />
-      <div className="sticky top-12 mt-4">
+      <div className="">
         <SubNavbar />
       </div>
 

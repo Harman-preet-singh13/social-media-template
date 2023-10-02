@@ -30,7 +30,7 @@ export default function SubNavbar() {
         `}
       >
         
-        <div className="flex justify-between">
+        <div className="flex justify-between ">
           <ul className="topnav pt-2 text-gray-400 flex gap-5">
             
             {["All Posts(32)", "Article", "Event", "Education", "Job"].map(

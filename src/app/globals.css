@@ -225,41 +225,38 @@ body {
   font-size: var(--fs-sm);
 }
 
-@media (max-width: 2560px) {
+.hero-heading{
+  color: var(--bg);
+  position: absolute;
+  top:30%;
+  left:15%;
+  transform: translate(-30%, -30%);
+}
+
+ @media (max-width: 2560px) {
   .hero-heading {
-    color: var(--bg);
-    position: absolute;
-    top: 40%;
-    left: 15%;
+    top: 45%;
   }
 }
 
 @media (max-width: 1224px) {
   .hero-heading {
-    color: var(--bg);
-    position: absolute;
     top: 30%;
-    left: 15%;
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 768px) {
   .hero-heading {
-    color: var(--bg);
-    position: absolute;
-    top: 30%;
-    left: 15%;
-  }
-}
-
-@media (max-width: 320px) {
-  .hero-heading {
-    color: var(--bg);
-    position: absolute;
     top: 25%;
-    left: 2%;
   }
 }
+
+@media (max-width: 375px) {
+  .hero-heading {
+    top: 20%;
+    left:25%;
+  }
+} 
 
 /* Heropage ends */
 
